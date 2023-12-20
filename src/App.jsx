@@ -1,7 +1,11 @@
-import "./App.css";
+import SiderDetails from "./Components/SiderDetails/SiderDetails";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <SiderDetails />
+    </>
+  );
 }
 
 export default App;

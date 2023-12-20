@@ -1,4 +1,5 @@
 import profilepic from "../../assets/k.png";
+import "./SiderDetails.scss";
 
 const SiderDetails = () => {
   return (

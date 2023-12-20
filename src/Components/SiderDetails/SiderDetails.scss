@@ -1,0 +1,19 @@
+.siderdetails {
+  width: 300px;
+  background-color: aquamarine;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .imagecontainer {
+    width: 91px;
+    height: 91px;
+    top: 42px;
+    left: 96px;
+    .img {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
