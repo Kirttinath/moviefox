@@ -5,10 +5,10 @@ import playlist_icon from "../../assets/playlist.png";
 import movie_icon from "../../assets/movie.png";
 import tv_icon from "../../assets/tv.png";
 import list_icon from "../../assets/list.png";
-import watch_icon from "../../assets/watch.png";
-import recomend_icon from "../../assets/recomend.png";
-import setting_icon from "../../assets/setting.png";
-import logout_icon from "../../assets/logout.png";
+// import watch_icon from "../../assets/watch.png";
+// import recomend_icon from "../../assets/recomend.png";
+// import setting_icon from "../../assets/setting.png";
+// import logout_icon from "../../assets/logout.png";
 
 const Home = () => {
   return (
