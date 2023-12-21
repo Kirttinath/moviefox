@@ -1,5 +1,15 @@
 import "./Home.scss";
 import profile from "../../assets/k.png";
+import discover_icon from "../../assets/search.png";
+import playlist_icon from "../../assets/playlist.png";
+import movie_icon from "../../assets/movie.png";
+import tv_icon from "../../assets/tv.png";
+import list_icon from "../../assets/list.png";
+import watch_icon from "../../assets/watch.png";
+import recomend_icon from "../../assets/recomend.png";
+import setting_icon from "../../assets/setting.png";
+import logout_icon from "../../assets/logout.png";
+
 const Home = () => {
   return (
     <div className="home">
@@ -9,11 +19,11 @@ const Home = () => {
         <img src="" alt="" className="vector1" />
         <div className="autogroup">
           <div className="autogroupimg">
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
+            <img src={discover_icon} alt="" />
+            <img src={playlist_icon} alt="" />
+            <img src={movie_icon} alt="" />
+            <img src={tv_icon} alt="" />
+            <img src={list_icon} alt="" />
           </div>
           <p className="discoverelements">
             <span className="discover">
