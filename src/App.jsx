@@ -1,9 +1,9 @@
-import SiderDetails from "./Components/SiderDetails/SiderDetails";
+import Home from "./Pages/Home/Home";
 
 function App() {
   return (
     <>
-      <SiderDetails />
+      <Home />
     </>
   );
 }
