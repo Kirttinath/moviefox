@@ -1,9 +1,10 @@
 import "./Home.scss";
+import profile from "../../assets/k.png";
 const Home = () => {
   return (
     <div className="home">
       <div className="group">
-        <img className="mask" src="" alt="" />
+        <img className="mask" src={profile} alt="" />
         <p className="kojha"></p>
         <img src="" alt="" className="vector1" />
         <div className="autogroup">
