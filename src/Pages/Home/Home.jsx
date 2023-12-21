@@ -15,8 +15,8 @@ const Home = () => {
     <div className="home">
       <div className="group">
         <img className="mask" src={profile} alt="" />
-        <p className="kojha"></p>
-        <img src="" alt="" className="vector1" />
+        <p className="kojha">Kirttinath Ojha</p>
+        <hr className="vector1" />
         <div className="autogroup">
           <div className="autogroupimg">
             <img src={discover_icon} alt="" />

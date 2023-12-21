@@ -1,0 +1,41 @@
+.group {
+  align-items: center;
+  background-color: #1e2a3b;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  height: 1187px;
+  padding: 67px 0px 256px 0.8px;
+  width: 340px;
+  .mask {
+    flex-shrink: 0;
+    border-radius: 50%;
+    height: 120px;
+    margin: 0px 0px 17.6px 12px;
+    object-fit: contain;
+    position: relative;
+    vertical-align: top;
+    width: 120px;
+  }
+  .kojha {
+    color: #d3d7dd;
+    flex-shrink: 0;
+    font-family: Open Sans, "Source Sans Pro";
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1;
+    margin: 0px 0px 30px 7px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  .vector1 {
+    flex-shrink: 0;
+    height: 0;
+    margin-bottom: 16px;
+    object-fit: contain;
+    vertical-align: top;
+    width: 340px;
+    border-top: 1px solid rgb(152, 248, 254);
+  }
+}
