@@ -42,6 +42,8 @@ input::placeholder {
 }
 .navicons {
   font-size: 25px;
+  cursor: pointer;
+  margin-left: 60px;
   color: white;
 }
 .searchicon {
@@ -56,5 +58,6 @@ input::placeholder {
 
 .right {
   display: flex;
-  gap: 15px;
+  padding: 25px;
+  gap: 20px;
 }

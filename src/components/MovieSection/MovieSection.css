@@ -1,13 +1,9 @@
 .MovieSection {
   height: 80%;
-
-  overflow: scroll;
   width: 100%;
   padding: 0px 30px;
   background-color: #273244;
-  display: flex;
   gap: 10px;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: flex-start;
-  flex-wrap: wrap;
 }

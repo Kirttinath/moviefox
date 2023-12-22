@@ -48,8 +48,8 @@
 }
 
 .linkbox {
-  display: flex;
   gap: 20px;
+  display: flex;
   align-items: flex-start;
 }
 .linkbox:hover .icons {
