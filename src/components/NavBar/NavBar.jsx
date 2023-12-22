@@ -2,8 +2,8 @@ import React from "react";
 import "./NavBar.css";
 import { FaMagnifyingGlass } from "react-icons/fa6";
 import { MdOutlineClose } from "react-icons/md";
-import { BsThreeDotsVertical } from "react-icons/bs";
-import { FiSun } from "react-icons/fi";
+// import { BsThreeDotsVertical } from "react-icons/bs";
+// import { FiSun } from "react-icons/fi";
 import { useState } from "react";
 
 export default function NavBar() {
@@ -31,7 +31,7 @@ export default function NavBar() {
                 type="text"
                 value={val}
                 onChange={update}
-                placeholder="Title, Movies, Keyword"
+                placeholder="Search Movie or TV Shows"
               />
               <MdOutlineClose className="navicons" onClick={clear} />
             </div>
@@ -39,10 +39,6 @@ export default function NavBar() {
         ) : (
           <FaMagnifyingGlass className="searchicon" onClick={toogle} />
         )}
-      </div>
-      <div className="right">
-        <FiSun className="navicons" />
-        <BsThreeDotsVertical className="navicons" />
       </div>
     </div>
   );

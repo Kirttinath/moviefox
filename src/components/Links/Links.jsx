@@ -17,56 +17,53 @@ export default function Links() {
 
   return (
     <div className="LinkComponent">
-     <div className="Comp1">
-     <div className="linkbox">
-        <FaMagnifyingGlass  className="icons"/>
-        <Link to="/" className="links">
-          Discover
-        </Link>
+      <div className="Comp1">
+        <div className="linkbox">
+          <FaMagnifyingGlass className="icons" />
+          <Link to="/" className="links">
+            Discover
+          </Link>
+        </div>
+
+        <div className="linkbox">
+          <CgPlayList className="icons" />
+          <Link to="/playlist" className="links">
+            Playlist
+          </Link>
+        </div>
+
+        <div className="linkbox">
+          <RiMovieLine className="icons" />
+          <Link to="/movie" className="links">
+            Movie
+          </Link>
+        </div>
+
+        <div className="linkbox">
+          <RiComputerLine className="icons" />
+          <Link to="/TvShows" className="links">
+            TV Shows
+          </Link>
+        </div>
+
+        <div className="linkbox">
+          <FaList className="icons" />
+          <Link to="/MyList" className="links">
+            My Lists
+          </Link>
+        </div>
       </div>
-
-      <div className="linkbox">
-        <CgPlayList   className="icons"/>
-        <Link to="/playlist" className="links">
-          Playlist
-        </Link>
-      </div>
-
-      <div className="linkbox">
-        <RiMovieLine   className="icons"/>
-        <Link to="/movie" className="links">
-          Movie
-        </Link>
-      </div>
-
-      <div className="linkbox">
-        <RiComputerLine  className="icons" />
-        <Link to="/TvShows" className="links">
-          TV Shows
-        </Link>
-      </div>
-
-      <div className="linkbox">
-        <FaList  className="icons" />
-        <Link to="/MyList" className="links">
-          My Lists
-        </Link>
-      </div>
-
-     </div>
-
-
 
       <div className="Comp2">
         <div className="linkbox">
-          <MdOutlineWatchLater   className="icons"/>
+          <MdOutlineWatchLater className="icons" />
           <Link to="/WatchLater" className="links">
             Watch Later
           </Link>
         </div>
 
         <div className="linkbox">
-          <FaRegHeart  className="icons" />
+          <FaRegHeart className="icons" />
           <Link to="/Recommended" className="links">
             Recommended
           </Link>
@@ -75,7 +72,7 @@ export default function Links() {
 
       <div className="Comp3">
         <div className="linkbox">
-          <MdOutlineSettings   className="icons"/>
+          <MdOutlineSettings className="icons" />
 
           <Link to="/Settings" className="links">
             Settings
@@ -83,7 +80,7 @@ export default function Links() {
         </div>
 
         <div className="linkbox">
-          <TbLogout   className="icons"/>
+          <TbLogout className="icons" />
 
           <Link to="/logout" className="links">
             Logout

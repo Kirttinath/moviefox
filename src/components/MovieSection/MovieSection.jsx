@@ -18,9 +18,7 @@ const MovieSection = () => {
 
     fetchData();
   }, []);
-  return (
-    <div className="MovieSection">{data && <SingleComp data={data} />}</div>
-  );
+  return <div className="MovieSection"></div>;
 };
 
 export default MovieSection;

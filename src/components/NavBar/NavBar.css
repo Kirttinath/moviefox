@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -19,9 +21,9 @@
   display: flex;
   gap: 10px;
   background-color: #1e2839;
-  border-radius: 10px;
+  border-radius: 20px;
   position: relative;
-  padding-left: 40px;
+  padding-left: 70px;
   transition: 0.3s ease-in-out;
 }
 input {
@@ -31,6 +33,7 @@ input {
   outline: none;
   color: white;
   font-size: 20px;
+  font-family: "Alegreya", serif;
   background-color: transparent;
 }
 input::placeholder {
