@@ -1,5 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya&display=swap");
 * {
-  font-family: sans-serif;
+  font-family: "Alegreya", serif;
 }
 
 .Dash {
@@ -57,7 +58,7 @@
   scale: 1.1;
 }
 .linkbox:hover .links {
-  color: rgb(236, 233, 144);
+  color: rgb(81, 154, 255);
   transition: 0.3s;
   scale: 1.1;
 }
@@ -65,7 +66,7 @@
   text-decoration: none;
   font-size: 18px;
   color: white;
-  font-weight: bold;
+  font-weight: 500;
 }
 Link.active {
   color: blue;

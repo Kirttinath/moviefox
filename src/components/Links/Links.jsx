@@ -1,5 +1,5 @@
 import React from "react";
-import "../Dashboard/Style.css";
+import "../Dashboard/DashBoard.css";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { FaMagnifyingGlass } from "react-icons/fa6";
