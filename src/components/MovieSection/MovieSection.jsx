@@ -1,23 +1,26 @@
 import React, { useState, useEffect } from "react";
 import "./MovieSection.css";
 
-import fetchMovieData from "../../Api";
+import useFetch from "../../Hooks/useFetch";
 
 const MovieSection = () => {
-  const [data, setData] = useState(null);
-
+  const [background, setBackground] = useState("");
+  const [query, setQuery] = useState("");
+  const navigate = useNavigate();
+  const { url } = useSelector((state) => state.home);
+  const { data, loading } = useFetch("/movie/upcoming");
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const movieData = await fetchMovieData();
-        setData(movieData.results);
-      } catch (error) {
-        console.error("Error fetching movie data:", error);
-      }
-    };
+    const bg =
+      url.backdrop +
+      data?.results?.[Math.floor(Math.random() * 20)]?.backdrop_path;
+    setBackground(bg);
+  }, [data]);
 
-    fetchData();
-  }, []);
+  const searchQueryHandler = (event) => {
+    if (event.key === "Enter" && query.length > 0) {
+      navigate(`/search/${query}`);
+    }
+  };
   return <div className="MovieSection"></div>;
 };
 
