@@ -1,0 +1,6 @@
+.Hero{
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}

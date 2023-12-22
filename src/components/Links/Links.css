@@ -1,0 +1,24 @@
+.LinkComponent{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  
+    margin-left: 30%;
+    gap: 20px;
+    margin-top: 20px;
+    border:  1px solid black;
+
+}
+
+.linkbox{
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    
+    
+}
+.links{
+    text-decoration: none;
+    font: 25px;
+    color: white;
+}
