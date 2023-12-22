@@ -33,7 +33,6 @@ export default function NavBar() {
                 onChange={update}
                 placeholder="Search Movie or TV Shows"
               />
-              <MdOutlineClose className="navicons" onClick={clear} />
             </div>
           </>
         ) : (

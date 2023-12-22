@@ -22,8 +22,8 @@
   flex-direction: column;
   gap: 20px;
   width: 100%;
-  border-bottom: 1px solid white;
-  padding-bottom: 15px;
+  border-bottom: 3px solid rgb(212, 0, 255);
+  padding-bottom: 16px;
 }
 .Comp2 {
   padding-left: 20%;
@@ -31,8 +31,8 @@
   flex-direction: column;
   gap: 20px;
   width: 100%;
-  border-bottom: 1px solid white;
-  padding-bottom: 15px;
+  border-bottom: 3px solid rgb(212, 0, 255);
+  padding-bottom: 16px;
 }
 .Comp3 {
   padding-left: 20%;
@@ -42,7 +42,7 @@
   width: 100%;
 }
 .icons {
-  color: white;
+  color: rgb(255, 242, 0);
   font-size: 20px;
   cursor: pointer;
 }
@@ -53,7 +53,7 @@
   align-items: flex-start;
 }
 .linkbox:hover .icons {
-  color: rgb(236, 233, 144);
+  color: rgb(81, 154, 255);
   transition: 0.3s;
   scale: 1.1;
 }
