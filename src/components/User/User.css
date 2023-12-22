@@ -1,0 +1,17 @@
+.User {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid white;
+  padding-bottom: 15px;
+}
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+h2 {
+  color: white;
+}
