@@ -4,8 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10px
-  
+  gap: 10px;
   border-bottom: 3px solid rgb(147, 21, 185);
   padding-bottom: 15px;
 }
