@@ -13,8 +13,6 @@ import "./App.css";
 // import Recommended from "./Pages/Recommended/Recommended";
 // import Logout from "./Pages/Logout/Logout";
 
-import React from "react";
-
 const App = () => {
   return (
     <BrowserRouter>
