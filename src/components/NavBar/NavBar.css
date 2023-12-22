@@ -48,6 +48,7 @@ input::placeholder {
   z-index: 999;
   top: 60px;
   left: 23%;
+  cursor: pointer;
 }
 
 .right {

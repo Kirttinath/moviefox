@@ -1,19 +1,21 @@
-// import { useState,useEffect } from 'react'
+import React, { useState, useEffect } from "react";
 // import Hero from './components/Hero/Hero'
 // import DashBoard from './components/Dashboard/DashBoard'
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./Pages/Home/Home";
 import "./App.css";
-import Playlist from "./Pages/Playlist/Playlist";
-import Movies from "./Pages/Movies/Movies";
-import TvShows from "./Pages/TvShows/TvShows";
-import MyList from "./Pages/MyList/MyList";
-import WatchLater from "./Pages/WatchLater/WatchLater";
-import Settings from "./Pages/Settings/Settings";
-import Recommended from "./Pages/Recommended/Recommended";
-import Logout from "./Pages/Logout/Logout";
+// import Playlist from "./Pages/Playlist/Playlist";
+// import Movies from "./Pages/Movies/Movies";
+// import TvShows from "./Pages/TvShows/TvShows";
+// import MyList from "./Pages/MyList/MyList";
+// import WatchLater from "./Pages/WatchLater/WatchLater";
+// import Settings from "./Pages/Settings/Settings";
+// import Recommended from "./Pages/Recommended/Recommended";
+// import Logout from "./Pages/Logout/Logout";
 
-export default function App() {
+import React from "react";
+
+const App = () => {
   return (
     <BrowserRouter>
       <Routes>
@@ -29,4 +31,6 @@ export default function App() {
       </Routes>
     </BrowserRouter>
   );
-}
+};
+
+export default App;
